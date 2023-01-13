@@ -40,3 +40,24 @@ header{
     header nav a{
         padding: 10px;
     }
+
+/*### hero banner ###*/
+#hero-banner{
+    height: 500px;
+    background-image: url(../imgs/hero-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 center;/* horiz  vertical */
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 62px;
+}
+
+    h1{
+        margin-left: 62px;
+        font-size: 32px;
+        font-weight: 600;
+        color: white;
+    }
